@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+.both{
+    display: flex;
+    flex-flow: space-evenly;
+    width: 100%
+}
+
+.both div{
+    width: 50%;
+    border: solid red 0px;
+    display: flex;
+    flex-flow:column;
+    box-sizing: border-box;
+}
+
+.both ul{
+    display: flex;
+    flex-flow: column;
+    border: solid red 1px;
+    padding: 5px;
+}
+
+li {
+    height: 20px;
+    width: 100%;
+}
+
+.both li{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.done li{
+    text-decoration-line: line-through;
+
+}
+
